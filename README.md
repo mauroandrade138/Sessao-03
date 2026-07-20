@@ -26,3 +26,5 @@ root@ubuntu:~$ sudo ufw default deny incoming
 
 Default incoming policy changed to 'deny'
 (be sure to update your rules accordingly)
+
+** **sudo ufw default allow outgoing**
