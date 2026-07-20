@@ -18,3 +18,11 @@ Conﬁguração de uma política defensiva estrita para impedir acessos não aut
 
 ## b) Alterar as políticas padrão — bloquear entrada, permitir saída:
 
+*   **sudo ufw default deny incoming**
+
+Bloqueia TODAS as ligações de entrada
+
+root@ubuntu:~$ sudo ufw default deny incoming
+
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
