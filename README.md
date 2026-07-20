@@ -26,5 +26,22 @@ root@ubuntu:~$ sudo ufw default deny incoming
 
 Default incoming policy changed to 'deny'
 (be sure to update your rules accordingly)
+---
+* **sudo ufw default allow outgoing**
 
-* ***sudo ufw default allow outgoing***
+Permite todas as ligações de saída
+
+root@ubuntu:~$ sudo ufw default allow outgoing
+
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+---
+## c) Criar uma regra específica para permitir acesso SSH apenas na porta padrão:
+
+sudo ufw allow 22/tcp
+
+root@ubuntu:~$ sudo ufw allow 22/tcp
+Rule added
+Rule added (v6)
+---
+## d)	Simular o bloqueio de um IP malicioso fictício na chain INPUT do iptables:
