@@ -417,6 +417,3 @@ Foi implementada uma política de segurança restritiva baseada no princípio �
 * **Apenas a porta 22/TCP (SSH) está aberta para administração remota**
 * **O tráfego de saída é permitido para garantir funcionamento normal do sistema**
 * **Um IP malicioso (203.0.113.50) foi explicitamente bloqueado com iptables**
-
-📌 Objetivo:
-Reduzir a superfície de ataque e impedir acessos não autorizados ao servidor
