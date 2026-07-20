@@ -194,3 +194,10 @@ COMMIT
 -A POSTROUTING -s 172.17.0.0/16 ! -o docker0 -j MASQUERADE
 COMMIT
 # Completed on Mon Jul 20 19:52:25 2026
+
+---
+
+## Critérios de Entrega
+---
+
+
