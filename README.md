@@ -10,6 +10,11 @@ Configuração de uma política defensiva estrita para impedir acessos não auto
 
 Conﬁguração de uma política defensiva estrita para impedir acessos não autorizados a serviços críticos do servidor, combinando UFW e iptables.
 
-## Tarefas a executar:
+## Tarefa a executar:
 
 ## a) Veriﬁcar o estado atual do UFW: sudo ufw status
+
+<img width="346" height="96" alt="Captura de ecrã 2026-07-20 183116" src="https://github.com/user-attachments/assets/be5caee7-32cd-40e4-afe7-0714075884ba" />
+
+## b) Alterar as políticas padrão — bloquear entrada, permitir saída:
+
